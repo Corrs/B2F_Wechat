@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/weui.min.css">
+    <link rel="stylesheet" href="../css/jquery-weui.min.css">
+    <link rel="stylesheet" href="../css/common/general.css">
+    <link rel="stylesheet" href="../css/tabar.css">
+    <link rel="stylesheet" href="../css/needs.css">
+    <link rel="stylesheet" href="../css/hall.css">
+    <title>我的求购</title>
+</head>
+<body>
+    <div class="search">
+        <div class="weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form" onsubmit="return false;">
+                <div class="weui-search-bar__box">
+                    <i class="weui-icon-search"></i>
+                    <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="" required="">
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText">
+                    <i class="weui-icon-search"></i>
+                    <span>搜索我的求购关键字</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+        <div class="weui-panel weui-panel_access search-history">
+            <div class="weui-panel__hd">历史记录</div>
+            <div class="weui-panel__bd">
+                <div class="weui-media-box weui-media-box_appmsg">
+                    <div class="weui-media-box__bd">
+                        <ul class="search-history-item">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="weui-panel__ft">
+                <a href="javascript:;" class="weui-btn clear-history_btn">清空历史记录</a>
+            </div>
+        </div>
+    </div>
+    <div class="weui-tab">
+        <div class="add">
+            <a href="javascript:;"><img src="../images/default/search.png" class="search-icon" alt=""></a>
+            <a href="./wechat_releaseNeed.html"><img src="../images/default/add.png" class="add-icon" alt=""></a>
+        </div>
+        <div class="weui-tab__bd needs-tab__bd">
+            <div class="weui-panel weui-panel_access">
+                <div class="weui-panel__bd">
+                    <div class="weui-media-box weui-media-box_appmsg">
+                        <div class="weui-media-box__hd">
+                            <img class="weui-media-box__thumb" src="../images/supplier/supplier_icon.png">
+                        </div>
+                        <div class="weui-media-box__bd">
+                            <h4 class="weui-media-box__title">广州瞎拌饭餐饮连锁<span>&bull;资质认证</span></h4>
+                            <p class="weui-media-box__desc">广东广州天河区海珠区瞎拌饭</p>
+                            <ul class="weui-media-box__info">
+                                <li>料理包</li>
+                                <li>排类</li>
+                            </ul>
+                        </div>
+                        <div class="weui-cell__ft status-change">
+                            <a href="javascript:;" class="status">
+                                <img src="../images/default/hidden.png" alt="" class="hidden">
+                                <img src="../images/default/show.png" alt="" class="">
+                            </a>
+
+                            <!--<label for="switchCP" class="weui-switch-cp">
+                                <input id="switchCP" class="weui-switch-cp__input" type="checkbox" checked="checked">
+                                <div class="weui-switch-cp__box"></div>
+                                <div class="show">公布</div>
+                                <div class="hidden">隐藏</div>
+                            </label>-->
+                            <!--占位符-->
+                            <!--<div class="label-placeholder"></div>-->
+                        </div>
+                    </div>
+                    <div class="weui-media-box weui-media-box_appmsg">
+                        <div class="weui-media-box__bd">
+                            <dl>
+                                <dt>产品类别：</dt>
+                                <dd>料理包</dd>
+                            </dl>
+                            <dl>
+                                <dt>产品介绍：</dt>
+                                <dd>土豆泥拌饭料理包（原料：土豆(300克)、大米(50
+                                    克)、牛肉(或猪肉)(10克)、绿豆芽(5克)、水芹菜(
+                                    或菠菜)(5克)、蕨菜(5克)、桔梗(5克)、蘑菇(5克)、
+                                    葱(2克)、酱油(3克)、豆油(3克)、芝麻盐(1克)、胡
+                                    椒面(0.1克)、鸡蛋(1克)）,留言报价</dd>
+                            </dl>
+                            <dl>
+                                <dt>价格预算：</dt>
+                                <dd>5.2-6.5元/包</dd>
+                            </dl>
+                            <dl>
+                                <dt>需求量：</dt>
+                                <dd>大概会有500包/月</dd>
+                            </dl>
+                            <dl>
+                                <dt>标签：</dt>
+                                <dd>
+                                    <ul>
+                                        <li>大量需要</li>
+                                        <li>加急需求</li>
+                                        <li>定制料理包</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weui-tabbar">
+            <a href="../hall/wechat_needs.html" class="weui-tabbar__item weui-bar__item--on">
+                <div class="weui-tabbar__icon">
+                    <img src="../images/tabar/needs_on.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">我的需求</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="../images/tabar/trader.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">找交易员</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="../images/tabar/supplier.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">查供应商</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="../images/tabar/mine.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">我的</p>
+            </a>
+        </div>
+    </div>
+<script src="../js/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="../js/jquery-weui/jquery-weui.min.js" type="text/javascript"></script>
+<script src="../js/fastclick.js" type="text/javascript"></script>
+<script src="../js/general.js" type="text/javascript"></script>
+<script src="../js/hall/needs.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.weui-media-box {
+    padding: 8px 8px 5px;
+}
+
+.weui-panel {
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.weui-media-box__hd {
+    width: 85px !important;
+    height: 85px !important;
+}
+
+.weui-media-box__bd {
+    height: 85px !important;
+    position: relative;
+}
+
+.weui-media-box__title {
+    font-size: 14px;
+    line-height: 14px;
+    color: #3B3A3A;
+}
+
+.weui-media-box__desc {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 9px;
+}
+
+.weui-media-box__info {
+    position: absolute;
+    bottom: 0;
+    padding: 0 5% 5px;
+    width: 90%;
+}
+
+.weui-media-box__info>span{
+    position: relative;
+    display: block;
+    height:20px;
+    background:rgba(241,241,241,1);
+    border-radius: 5px ;
+    font-size: 10px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(0,0,0,1);
+    line-height:20px;
+    box-shadow: -4px 4px 5px #c5c4c4;
+    text-align: center;
+}
+
+.weui-media-box__info span img {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+    margin-inside: 2px;
+}
+
+.weui-media-box__info span label {
+    padding-left: 2px;
+}
+
+.mask .weui-panel {
+    margin: auto;
+    margin-top: 50%;
+    width: 80%;
+}
+.mask .weui-media-box:before {
+    left: 0;
+}
+.mask .weui-panel .weui-media-box__bd {
+    height: 30px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mask .weui-panel .weui-media-box__bd  .weui-media-box__title {
+    line-height: 30px;
+}
+
+.mask h4 a {
+    display: block;
+}

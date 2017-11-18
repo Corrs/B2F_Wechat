@@ -1,0 +1,8 @@
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {
+    color: #1296DB;
+}
+
+.weui-tab__bd {
+    padding: 10px 10px 63px;
+    overflow: auto;
+}
