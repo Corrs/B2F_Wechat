@@ -82,9 +82,9 @@ $(function () {
         data.category = $("select[name=\"category\"]").val(); // 分类
         data.price = $(".budget input[name=\"price\"]").val(); // 预算金额
         data.norm = $(".budget input[name=\"norm\"]").val(); // 规格
-        data.num = $(".demand input[name=\"num\"]"); // 需求量
-        data.rate = $(".demand select[name=\"rate\"]");// 需求频率
-        data.formula = $("textarea[name=\"formula\"]"); // 产品配方
+        data.num = $(".demand input[name=\"num\"]").val(); // 需求量
+        data.rate = $(".demand select[name=\"rate\"]").val();// 需求频率
+        data.formula = $("textarea[name=\"formula\"]").val(); // 产品配方
         data.label = labels.join(","); //标签
         data.status = status; // 公布状态
         // 数据发送后台保存 保存成功后返回前一页
